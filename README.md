@@ -35,3 +35,17 @@ To create a new version or upload a new release of your plugin:
 
 Typically if you where to do this without Fairplay and wanted to send a Minecraft pack to someone else, you would; Change the UUID and Version in Manifest.json, Compress it into a .ZIP binary, and then rename it to pack.mcpack.
 With Fairplay developer hub, we will take your behavior pack directly from your "Development_Behavior_Pack" folder and handle everything for you. Additonally if selected to enable obfuscation we will look at the script.entry.path(Typically index.js) and compress all files(Include import/exports) to a single file. We currently support, all ES6 Javascript webpack obfuscation modules with the exception of ShuffleStringArrays, ControlFlowFlattening, SelfDefending, DeadCodeInjection, and StringArrayRotation. 
+
+---
+
+## Deploying a Deployment onto the Fairplay marketplace
+![Deploy the Deployment](https://cdn.economyplus.solutions/oa7awf6q.png)  
+
+This menu allows you to directly roll back a deployment right away, any users who have installed a old version of your addon will automatically updated to this version. 
+
+---
+
+# Closing Remarks
+
+- Fairplay already builds on from Fairplay v4's realm intigration. This means packs will not be downloaded to the users device but instead directly upload to the users Realm. This cuts down on piracy, and allows for every Minecraft User regardless of device to be able to install and use your packs.
+- We support Behavior + Resource packs
